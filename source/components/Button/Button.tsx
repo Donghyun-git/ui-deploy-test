@@ -6,16 +6,15 @@ export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElemen
 
 /**
  * ------------------------------------------
- * @description 2025-01-14 package deploy test
+ * @description
+ * - 2025-01-14 package deploy test
+ * - 2025-01-29 package tailwind setting
  * ------------------------------------------
  */
 export const Button = (props: ButtonProps) => {
-  const { children, ...rest } = props;
-
   return (
-    <button {...rest}>
-      {children}
-      빌드테스트
+    <button {...props} className="inline-flex border py-2 px-4 text-sm rounded-full dark:bg-gray-800 dark:text-white">
+      {props.children}
     </button>
   );
 };
