@@ -1,6 +1,5 @@
 {
-  "name": "@donghyun/ui",
-  "private": true,
+  "name": "@donghyun-git/ui-deploy-test",
   "repository": {
     "type": "git",
     "url": "https://github.com/Donghyun-git/ui-deploy-test.git"
